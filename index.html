@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{app_name}</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body class="">
+    <div class="container">
+        <div>
+          <p><img src={app_icon_url}/></p>
+        </div>
+        <div class="app-infor">
+          <h1>{app_name}</h1>
+          <br>
+          <p>{description}</p>
+        </div>
+        <div class="app-link">
+          <br>
+          <a href={app_url}><img class="app-icon" src="../assets/img/badgegoogleplay.png" /></a>
+        </div>
+        <br>
+        <br>
+        <div class="link-list">
+          <a href="{app_legal_url}/privacy" target="_blank">Privacy Policy</a><br />
+          <a href="{app_legal_url}/terms" target="_blank">End User License Agreement</a><br />
+          <a href="{app_legal_url}/ccpa" target="_blank">CCPA Privacy Notice</a><br />
+          <a href="{app_legal_url}/copyrights" target="_blank">Copyrights Policy</a>
+        </div>
+    </div>
+    <div class="footer">Copyright ©2024 , All Rights Reserved.</div>
+</body>
+</html>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const appData = {
+        "app_name": "Piano App",
+        "description": "The Piano App grants you complete access to control your PlayStation 5 console or PlayStation 4 console from a different location.",
+        "app_url": "https://play.google.com/store/apps/details?id=pianoapp",
+        "app_icon_url": "ChatGPT_Image_23_12_31_8_thg_12_2025.png",
+        "app_legal_url": "https://phulinh.org/pianoapp"
+    };
+
+    document.title = appData.app_name;
+    document.querySelector(".app-infor h1").textContent = appData.app_name;
+    document.querySelector(".app-infor p").textContent = appData.description + " Click to Download now!";
+    document.querySelector(".app-link a").href = appData.app_url;
+    document.querySelector(".app-link img").src = "../assets/img/badgegoogleplay.png";
+    document.querySelector(".container img").src = appData.app_icon_url;
+    
+    document.querySelector(".link-list a[href*='privacy']").href = appData.app_legal_url + "/privacy";
+    document.querySelector(".link-list a[href*='terms']").href = appData.app_legal_url + "/terms";
+    document.querySelector(".link-list a[href*='ccpa']").href = appData.app_legal_url + "/ccpa";
+    document.querySelector(".link-list a[href*='copyrights']").href = appData.app_legal_url + "/copyrights";
+});
+</script>
