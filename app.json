@@ -4,10 +4,10 @@
   "description": "The Piano App grants you complete access to control your digital piano from a different location",
   "app_icon_url": "https://play-lh.googleusercontent.com/JZlzKAIhcbJATCNWsD_3tqjxANVsSJ7unjayvWAH59-ADcnNhXiN_bQY8l1cHTPQBU8=w480-h960-rw",
   "app_url": "https://play.google.com/store/apps/details?id=piano.app",
-  "app_legal_url": "https://datavis.site/pianoapp",
-  "privacy_policy_url": "https://datavis.site/pianoapp/privacy",
-  "terms_url": "https://datavis.site/pianoapp/terms",
-  "ccpa_url": "https://datavis.site/pianoapp/ccpa",
-  "copyrights_url": "https://datavis.site/pianoapp/copyrights",
+  "app_legal_url": "https://baophan894.github.io/pianoapp",
+  "privacy_policy_url": "https://baophan894.github.io/pianoapp/privacy",
+  "terms_url": "https://baophan894.github.io/pianoapp/terms",
+  "ccpa_url": "https://baophan894.github.io/pianoapp/ccpa",
+  "copyrights_url": "https://baophan894.github.io/pianoapp/copyrights",
   "hide_tag": "<p>The table below details the processing of <strong>Personal Data</strong>, the purpose, lawful basis, and processing operations:</p>"
 }
